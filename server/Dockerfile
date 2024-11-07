@@ -11,8 +11,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     make \
     libpq-dev \
     gcc \
-    netcat-openbsd \
-    && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
 # Install Poetry
